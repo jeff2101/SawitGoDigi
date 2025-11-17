@@ -1,0 +1,12 @@
+.bg-gradient-primary {
+    background-color: #1B4D3E !important;
+    background-image: none !important;
+}
+
+.bg-login-custom {
+    background-image: url('/assets/img/sawit.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
