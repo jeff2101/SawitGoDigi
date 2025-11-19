@@ -33,6 +33,7 @@ use App\Http\Controllers\Admin\AboutController;
 use App\Http\Controllers\Admin\VisiMisiController;
 use App\Http\Controllers\Admin\FeatureController;
 use App\Http\Controllers\Admin\GalleryItemController;
+use App\Http\Controllers\Admin\FaqController;
 
 // ==================
 // HALAMAN UTAMA
@@ -93,6 +94,7 @@ Route::middleware(['admin', 'otp.verified'])->prefix('admin')->name('admin.')->g
 
     Route::resource('gallery-items', GalleryItemController::class)->except(['show']);
 
+    Route::resource('faqs', FaqController::class)->except(['show']);
 });
 
 

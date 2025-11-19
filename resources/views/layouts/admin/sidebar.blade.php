@@ -65,9 +65,9 @@
                 <a class="collapse-item" href="/admin/faqs">
                     FAQ
                 </a>
-                <a class="collapse-item" href="/admin/contact-info">
+                <!-- <a class="collapse-item" href="/admin/contact-info">
                     Kontak
-                </a>
+                </a> -->
             </div>
         </div>
     </li>
